@@ -1413,7 +1413,7 @@ QUnit.test( "pseudo - :disabled by ancestry", function( assert ) {
 		"Inputs inherit disabled from fieldset",
 		"#disabled-fieldset :disabled",
 		[ "disabled-fieldset-input", "disabled-fieldset-textarea",
-			"disabled-fieldset-button" ]
+			"disabled-fieldset-button", "disabled-fieldset-select" ]
 	);
 } );
 
